@@ -22,4 +22,7 @@ solve = fmap return $ do
       let a = listArray ((1,1), (n,m)) xs
       return $ count a c
 
+
+      ///
+
 main = interact $ unlines . solve . lines
